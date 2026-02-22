@@ -1,0 +1,59 @@
+{
+  "product_id": "TEMU_601099512229922",
+  "product_name": "Cercei Elegance Gold",
+  "h1_title": "Cercei Unicat Placați cu Aur 18K",
+  "h2_subtitle": "Cadoul perfect pentru tine sau pentru cineva drag! Arată ca un milion de dolari!",
+  "discount": "50%",
+  "brand_quote": "Eleganța perfectă pentru fiecare zi",
+  "benefits": [
+    {
+      "title": "Arată de Milioane",
+      "text": "Cu cerceii ăștia, toată lumea o să te admire! Designul elegant și strălucirea aurului placat te fac să arăți ca o vedetă la orice eveniment."
+    },
+    {
+      "title": "Cadoul Perfect",
+      "text": "Dacă vrei să impresionezi, ăștia sunt cerceii pe care să îi oferi! Ambalaj elegant inclus. Perfecti pentru ziua de naștere, aniversări sau doar pentru a spune 'Te iubesc'."
+    },
+    {
+      "title": "Confort Toată Ziua",
+      "text": "De la rochii de seară la blugi și tricou, cu cerceii noștri ești mereu la modă! Sunt atât de ușori încât vei uita că îi porți."
+    }
+  ],
+  "specs": [
+    "Placați cu aur 18K",
+    "Hipoalergenici - fără nichel",
+    "Greutate: ~5g (foarte ușori)",
+    "Design elegant, inspirat din moda italiană",
+    "Vândut în pereche de doi cercei"
+  ],
+  "testimonials": [
+    {
+      "text": "Cercei frumoși și strălucesc tare. Îmi plac mult, îi port des.",
+      "name": "Maria P.",
+      "date": "15/01/2024"
+    },
+    {
+      "text": "Am primit cerceii azi. Sunt ca în poză și sunt buni. Mă bucur.",
+      "name": "Elena M.",
+      "date": "20/01/2024"
+    },
+    {
+      "text": "Sunt ușori și îi port mereu. Arată ca și cum ar fi scumpi. Sunt mulțumită.",
+      "name": "Ana S.",
+      "date": "25/01/2024"
+    }
+  ],
+  "price": 59,
+  "price_old": 118,
+  "option_1_name": "1 PERECHE AURIU",
+  "option_2": {
+    "name": "2 PERECHI (SUPER OFERTĂ)",
+    "value": "95-TEMU_601099512229922-2x",
+    "price": 95,
+    "price_old": 236,
+    "discount": "60%"
+  },
+  "whatsapp_number": "40722123456",
+  "whatsapp_visual": "0722 123 456",
+  "tracking_endpoint": "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec"
+}

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 pereche de cercei minimaliști cu  vârfuri curbe - Seliani</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#D4AF37',
+                        'gold-dark': '#B8960C',
+                        ribbon: '#FFCF3A',
+                        cta: '#25D366',
+                        accent: '#f2295b'
+                    },
+                    fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif'],
+                        opensans: ['Open Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .ribbon {
+            position: absolute;
+            top: 20px;
+            right: -35px;
+            background: #FFCF3A;
+            color: #000;
+            padding: 8px 40px;
+            transform: rotate(45deg);
+            font-weight: 800;
+            font-size: 14px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .star { color: #FFCF3A; }
+        .pulse-btn {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+        .review-grid img {
+            transition: transform 0.3s ease;
+        }
+        .review-grid img:hover {
+            transform: scale(1.05);
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #D4AF37;
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+        }
+        .radio-option {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .radio-option:hover {
+            border-color: #D4AF37;
+        }
+        .radio-option.selected {
+            border-color: #D4AF37;
+            background-color: #FEF9E7;
+        }
+    </style>
+</head>
+<body class="bg-white font-opensans">
+    
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 py-8 text-center">
+            <!-- Logo -->
+            <div class="mb-6">
+                <h2 class="text-gold font-montserrat text-2xl font-bold tracking-wider">SELIANI</h2>
+            </div>
+            
+            <!-- Main Title -->
+            <h1 class="font-montserrat text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+                Cercei Eleganți - Design Unic
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-lg md:text-xl text-gray-700 mb-6 max-w-2xl mx-auto">
+                Adaugă un strop de eleganță ținutei tale
+            </p>
+            
+            <!-- Main Product Image -->
+            <div class="relative inline-block mb-6">
+                <div class="ribbon">50% REDUCERE</div>
+                <img src="images/product-1.jpg" alt="1 pereche de cercei minimaliști cu  vârfuri curbe" 
+                     class="rounded-lg shadow-2xl max-w-full md:max-w-lg mx-auto">
+            </div>
+            
+            <!-- CTA Button -->
+            <a href="#comanda" class="inline-block bg-accent hover:bg-pink-600 text-white font-montserrat font-bold text-xl px-12 py-4 rounded-full shadow-lg pulse-btn transition-all">
+                COMANDĂ ACUM
+            </a>
+            <p class="mt-3 text-gray-600">☝️ Apasă aici pentru preț ☝️</p>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="bg-gray-50 py-6">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                <div class="flex items-center justify-center gap-2">
+                    <span class="text-2xl">🚚</span>
+                    <span class="font-semibold">PLATA LA LIVRARE / RAMBURS</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                    <span class="text-2xl">📦</span>
+                    <span class="font-semibold">LIVRARE RAPIDĂ 1-2 ZILE</span>
+                </div>
+                <div class="flex items-center justify-center gap-2">
+                    <span class="text-2xl">↩️</span>
+                    <span class="font-semibold">DREPT DE RETUR 14 ZILE</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Storytelling Section -->
+    <section class="py-12 bg-white">
+        <div class="max-w-3xl mx-auto px-4">
+            <p class="text-lg text-gray-700 leading-relaxed mb-8 text-center">
+                ✨ <strong>Cadoul Perfect pentru Tine sau pentru Cineva Drag!</strong><br><br>
+                Vrei să fii în centrul atenției la următoarea petrecere sau să faci un cadou de neuitat? 
+                Cerceii noștri sunt răspunsul! Sunt ușor de purtat și te fac să arăți ca o vedetă!
+            </p>
+            
+            <!-- Product Gallery -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+                <img src="images/product-2.jpg" alt="1 pereche de cercei minimaliști cu  vârfuri curbe" class="rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                <img src="images/product-3.jpg" alt="1 pereche de cercei minimaliști cu  vârfuri curbe" class="rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                <img src="images/product-4.jpg" alt="1 pereche de cercei minimaliști cu  vârfuri curbe" class="rounded-lg shadow-md hover:shadow-xl transition-shadow">
+            </div>
+            
+            <!-- Quote -->
+            <blockquote class="border-l-4 border-gold pl-6 py-2 italic text-gray-600 text-center">
+                "Eleganță și calitate la un preț accesibil"<br>
+                <span class="text-gold font-semibold">— Seliani</span>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4">
+            <!-- Benefit 1 -->
+            <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+                <div class="md:w-1/2">
+                    <img src="images/product-2.jpg" alt="Design Premium" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="font-montserrat text-2xl font-bold text-gray-900 mb-4">
+                        ◆ Design Premium
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Zirconiu sintetic de înaltă calitate cu finisaje impecabile
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Benefit 2 -->
+            <div class="flex flex-col md:flex-row-reverse items-center gap-8 mb-12">
+                <div class="md:w-1/2">
+                    <img src="images/product-3.jpg" alt="Hipoalergenic" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="font-montserrat text-2xl font-bold text-gray-900 mb-4">
+                        ◆ Hipoalergenic
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Siguranță și confort pentru pielea sensibilă
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Benefit 3 -->
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="images/product-4.jpg" alt="Cadoul Perfect" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="font-montserrat text-2xl font-bold text-gray-900 mb-4">
+                        ◆ Cadoul Perfect
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Ambalaj elegant, gata de oferit persoanei dragi
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications -->
+    <section class="py-12 bg-white">
+        <div class="max-w-2xl mx-auto px-4">
+            <h2 class="font-montserrat text-2xl font-bold text-center mb-6">Specificații</h2>
+            <div class="bg-gray-50 rounded-lg p-6 text-gray-700">
+                • Material: Aliaj premium placat<br>• Piatră: Zirconiu sintetic<br>• Design: Elegant, versatil<br>• Greutate: Ușori și confortabili<br>• Închidere: Sistem sigur
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section with Photos -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="font-montserrat text-2xl font-bold text-center mb-8">Ce spun clienții noștri?</h2>
+            
+            <!-- Testimonials with Photos -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                <!-- Review 1 with Photo -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="images/review-1.jpg" alt="Review Maria P." class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="star text-xl">★★★★★</span>
+                        </div>
+                        <p class="text-gray-700 mb-3 italic">"Foarte mulțumită de calitate! Arată exact ca în poze, chiar mai frumos."</p>
+                        <p class="font-semibold text-gray-900">Maria P.</p>
+                        <p class="text-sm text-gray-500">20/01/2026</p>
+                    </div>
+                </div>
+                
+                <!-- Review 2 with Photo -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="images/review-2.jpg" alt="Review Elena M." class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="star text-xl">★★★★★</span>
+                        </div>
+                        <p class="text-gray-700 mb-3 italic">"I-am primit rapid, ambalaj frumos. Mama a fost încântată de cadou!"</p>
+                        <p class="font-semibold text-gray-900">Elena M.</p>
+                        <p class="text-sm text-gray-500">18/01/2026</p>
+                    </div>
+                </div>
+                
+                <!-- Review 3 with Photo -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="images/review-3.jpg" alt="Review Ana S." class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="star text-xl">★★★★★</span>
+                        </div>
+                        <p class="text-gray-700 mb-3 italic">"Eleganți și ușori. Perfect pentru zilnic și ocazii speciale!"</p>
+                        <p class="font-semibold text-gray-900">Ana S.</p>
+                        <p class="text-sm text-gray-500">15/01/2026</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional Photo Reviews Grid -->
+            <h3 class="font-montserrat text-xl font-bold text-center mb-4">Poze de la clienți</h3>
+            <div class="review-grid grid grid-cols-3 md:grid-cols-5 gap-2">
+                <img src="images/review-4.jpg" alt="Review 4" class="rounded-lg">
+                <img src="images/review-5.jpg" alt="Review 5" class="rounded-lg">
+                <img src="images/review-6.jpg" alt="Review 6" class="rounded-lg">
+                <img src="images/review-7.jpg" alt="Review 7" class="rounded-lg">
+                <img src="images/review-8.jpg" alt="Review 8" class="rounded-lg">
+                <img src="images/review-9.jpg" alt="Review 9" class="rounded-lg">
+                <img src="images/review-10.jpg" alt="Review 10" class="rounded-lg">
+                <img src="images/review-11.jpg" alt="Review 11" class="rounded-lg">
+                <img src="images/review-12.jpg" alt="Review 12" class="rounded-lg">
+                <img src="images/review-13.jpg" alt="Review 13" class="rounded-lg">
+                <img src="images/review-14.jpg" alt="Review 14" class="rounded-lg">
+                <img src="images/review-15.jpg" alt="Review 15" class="rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp CTA -->
+    <section class="py-6 border-t-4 border-cta">
+        <div class="max-w-4xl mx-auto px-4">
+            <a href="https://wa.me/40722000000?text=Sunt%20interesat%20de%201%20pereche%20de%20cercei%20minimali%C8%99ti%20cu%20%20v%C3%A2rfuri%20curbe" 
+               target="_blank"
+               class="flex items-center justify-center gap-3 text-gray-800 hover:text-cta transition-colors">
+                <svg class="w-8 h-8 text-cta" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                <span class="font-montserrat font-semibold text-xl">WhatsApp: +40 722 000 000</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Order Form - FORMSUBMIT.CO VERSION -->
+    <section id="comanda" class="py-12 bg-gradient-to-b from-white to-gray-100">
+        <div class="max-w-xl mx-auto px-4">
+            <h2 class="font-montserrat text-3xl font-bold text-center mb-2">FORMULAR DE COMANDĂ</h2>
+            <p class="text-center text-gray-600 mb-8">Completează datele și te contactăm pentru confirmare</p>
+            
+            <form id="orderForm" action="https://formsubmit.co/ajax/SCHIMBA_CU_EMAIL_TAU@gmail.com" method="POST" class="bg-white rounded-2xl shadow-xl p-8">
+                <!-- FormSubmit Config -->
+                <input type="hidden" name="_subject" value="🛒 Comandă Nouă: 1 pereche de cercei minimaliști cu  vârfuri curbe">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="product_id" value="TEMU_601099530807861">
+                <input type="hidden" name="product_name" value="1 pereche de cercei minimaliști cu  vârfuri curbe">
+                
+                <!-- Name -->
+                <div class="mb-4">
+                    <label class="block font-semibold mb-2">Nume și Prenume *</label>
+                    <input type="text" name="nume" required
+                           class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg"
+                           placeholder="ex: Maria Popescu">
+                </div>
+                
+                <!-- Phone -->
+                <div class="mb-4">
+                    <label class="block font-semibold mb-2">Telefon *</label>
+                    <input type="tel" name="telefon" required
+                           class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg"
+                           placeholder="ex: 0722 123 456"
+                           pattern="[0-9]{10,12}">
+                </div>
+                
+                <!-- County -->
+                <div class="mb-4">
+                    <label class="block font-semibold mb-2">Județ *</label>
+                    <input type="text" name="judet" required
+                           class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg"
+                           placeholder="ex: București">
+                </div>
+                
+                <!-- City -->
+                <div class="mb-4">
+                    <label class="block font-semibold mb-2">Localitate *</label>
+                    <input type="text" name="localitate" required
+                           class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg"
+                           placeholder="ex: Sector 1">
+                </div>
+                
+                <!-- Address -->
+                <div class="mb-6">
+                    <label class="block font-semibold mb-2">Adresă completă *</label>
+                    <input type="text" name="adresa" required
+                           class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg"
+                           placeholder="ex: Str. Florilor, nr. 10, bl. A1, ap. 5">
+                </div>
+                
+                <!-- Product Options -->
+                <div class="mb-6">
+                    <label class="block font-semibold mb-3">Alege opțiunea:</label>
+                    
+                    <div class="space-y-3">
+                        
+                        <label class="radio-option selected block border-2 border-gold rounded-lg p-4 cursor-pointer bg-yellow-50">
+                            <input type="radio" name="optiune" value="cercei_aurii_59lei" data-price="59" required checked class="hidden">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="font-semibold">✨ Cercei aurii</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-2xl font-bold text-accent">59 lei</span>
+                                    <span class="text-gray-400 line-through ml-2">118 lei</span>
+                                    <span class="block text-sm text-green-600">Economisești 50%</span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="radio-option block border-2 border-gray-200 rounded-lg p-4 cursor-pointer">
+                            <input type="radio" name="optiune" value="cercei_argintii_59lei" data-price="59" class="hidden">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="font-semibold">💎 Cercei argintii</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-2xl font-bold text-accent">59 lei</span>
+                                    <span class="text-gray-400 line-through ml-2">118 lei</span>
+                                    <span class="block text-sm text-green-600">Economisești 50%</span>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="radio-option block border-2 border-gray-200 rounded-lg p-4 cursor-pointer bg-gradient-to-r from-yellow-50 to-amber-50 border-amber-300">
+                            <input type="radio" name="optiune" value="combo_aurii_argintii_88lei" data-price="88" class="hidden">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="font-semibold">🔥 PACHET: Aurii + Argintii</span>
+                                    <span class="block text-sm text-green-600">Cea mai populară alegere!</span>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-2xl font-bold text-accent">88 lei</span>
+                                    <span class="text-gray-400 line-through ml-2">236 lei</span>
+                                    <span class="block text-sm text-green-600">Economisești 148 lei</span>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- Shipping -->
+                <div class="mb-6">
+                    <label class="block font-semibold mb-3">Livrare:</label>
+                    <label class="radio-option selected block border-2 border-gold rounded-lg p-4 cursor-pointer bg-yellow-50">
+                        <input type="radio" name="livrare" value="GLS Curier - 9 lei" checked class="hidden" data-price="9">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold">🚚 GLS - Curier rapid</span>
+                            <span class="font-bold">9 lei</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- Total (display + hidden input) -->
+                <div class="bg-gray-100 rounded-lg p-4 mb-6">
+                    <div class="flex justify-between items-center text-xl">
+                        <span class="font-semibold">Total de plată:</span>
+                        <span id="totalPrice" class="font-bold text-accent text-2xl">68 lei</span>
+                    </div>
+                    <input type="hidden" name="total" id="totalHidden" value="68 lei">
+                    <p class="text-sm text-gray-500 mt-1">Plată la livrare (ramburs)</p>
+                </div>
+                
+                <!-- Submit -->
+                <button type="submit" 
+                        class="w-full bg-accent hover:bg-pink-600 text-white font-montserrat font-bold text-xl py-4 rounded-full shadow-lg pulse-btn transition-all">
+                    TRIMITE COMANDA
+                </button>
+                
+                <p class="text-center text-sm text-gray-500 mt-4">
+                    🔒 Datele tale sunt în siguranță și nu vor fi partajate
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-white text-center">
+        <p class="text-sm">© 2024 Seliani. Toate drepturile rezervate.</p>
+        <p class="text-xs text-gray-400 mt-2">
+            <a href="#" class="hover:text-white">Termeni și condiții</a> | 
+            <a href="#" class="hover:text-white">Politica de confidențialitate</a>
+        </p>
+    </footer>
+
+    <script>
+        // Radio button selection styling & total update
+        document.querySelectorAll('.radio-option').forEach(option => {
+            option.addEventListener('click', function() {
+                const input = this.querySelector('input');
+                const name = input.name;
+                
+                // Remove selected class from siblings
+                document.querySelectorAll(`input[name="${name}"]`).forEach(inp => {
+                    inp.closest('.radio-option').classList.remove('selected');
+                });
+                
+                // Add selected class
+                this.classList.add('selected');
+                input.checked = true;
+                
+                // Update total
+                updateTotal();
+            });
+        });
+
+        // Calculate total
+        function updateTotal() {
+            const productInput = document.querySelector('input[name="optiune"]:checked');
+            const shippingInput = document.querySelector('input[name="livrare"]:checked');
+            
+            if (productInput && shippingInput) {
+                const productPrice = parseInt(productInput.getAttribute('data-price')) || 0;
+                const shippingPrice = parseInt(shippingInput.getAttribute('data-price')) || 0;
+                const total = productPrice + shippingPrice;
+                document.getElementById('totalPrice').textContent = total + ' lei';
+                document.getElementById('totalHidden').value = total + ' lei';
+            }
+        }
+
+        // Form submission via AJAX to FormSubmit
+        document.getElementById('orderForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            
+            // Disable button
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Se trimite...';
+            
+            // Collect form data
+            const formData = new FormData(form);
+            
+            // Add selected option label
+            const productInput = document.querySelector('input[name="optiune"]:checked');
+            if (productInput) {
+                const label = productInput.closest('.radio-option').querySelector('.font-semibold').textContent.trim();
+                formData.set('optiune', label);
+            }
+            
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    // Show success message
+                    form.innerHTML = `
+                        <div class="text-center py-8">
+                            <div class="text-6xl mb-4">🎉</div>
+                            <h3 class="font-montserrat text-2xl font-bold text-green-600 mb-4">
+                                Mulțumim pentru comandă!
+                            </h3>
+                            <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+                                <p class="text-gray-700 mb-2">
+                                    <strong>⚠️ Momentan suntem fără produse în stoc.</strong>
+                                </p>
+                                <p class="text-gray-600 text-sm">
+                                    Estimăm <strong>1-2 săptămâni</strong> până la reaprovizionare.
+                                </p>
+                            </div>
+                            <p class="text-gray-600 mb-4">
+                                Vă vom contacta pentru a confirma dacă mai sunteți interesat 
+                                când produsele vor fi disponibile.
+                            </p>
+                            <p class="text-sm text-gray-500">
+                                Cu stimă,<br>
+                                <span class="text-gold font-semibold">Echipa Seliani</span>
+                            </p>
+                        </div>
+                    `;
+                } else {
+                    throw new Error('Form submission failed');
+                }
+                
+            } catch (error) {
+                console.error('Error:', error);
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+                alert('A apărut o eroare. Te rugăm să încerci din nou sau să ne contactezi pe WhatsApp.');
+            }
+        });
+
+        // Initialize total on page load
+        updateTotal();
+    </script>
+</body>
+</html>
